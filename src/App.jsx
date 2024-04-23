@@ -37,7 +37,7 @@ function App() {
             </div>
             
             
-            <div className='w-[80%]  flex border-2 border-blue-300 mr-5 mb-1'>
+            <div className='w-[80%]  flex rounded-xl border-2 border-blue-300 mr-5 mb-1 '>
             <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/about" element={<About />} />
