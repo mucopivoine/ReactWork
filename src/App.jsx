@@ -17,7 +17,7 @@ function App() {
       <header className=''>
        
           <nav >
-            <div className='bg-red-200 flex flex-col rounded-lg border-2 border-blue-400 ' >
+            <div className='bg-red-200  h-[92vh] flex flex-col rounded-lg border-2 border-blue-400 ' >
           <Header/>
           <div className='flex flex-row w-full'>
             <div className='w-[30%]  '>
@@ -37,7 +37,7 @@ function App() {
             </div>
             
             
-            <div className='w-[80%]  flex rounded-xl border-2 border-blue-300 mr-5 mb-1 '>
+            <div className='w-full flex rounded-lg border-2 border-blue-400 mr-3 '>
             <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/about" element={<About />} />
