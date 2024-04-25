@@ -22,14 +22,14 @@ function App() {
           <div className='flex flex-row w-full'>
             <div className='w-[30%]  '>
             <ul className='flex flex-col font-bold gap-3 pt-10 text-xl'>
-              <li className='mb-5 text-blue-700'>
+              <li className='mb-5 text-blue-700 hover:text-red-400'>
                 <Link to="/">Home </Link>
               </li>
             
-              <li className='mb-5 text-red-400'>
+              <li className='mb-5 text-blue-700 hover:text-red-400'>
                 <Link to="/about">About Me</Link>
               </li>
-              <li className='mb-5 text-blue-700' >
+              <li className='mb-5 text-blue-700 hover:text-red-400'>
                 <Link to="/contact">Contact Me</Link>
               </li>
               
