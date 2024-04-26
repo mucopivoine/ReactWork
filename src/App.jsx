@@ -8,6 +8,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import AuthRoute from './Pages/AuthRoute';
+import Forgetps from './Pages/Forgetps';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/' element={<AuthRoute/>} >
           <Route path="/" element={<Signin/>}/>
           <Route path="/signup" element={<Signup/>}/>
+          <Route path='/forgetps' element={<Forgetps/>}/>
         </Route>
 
         <Route path="/" element={<Homepage/>}>
