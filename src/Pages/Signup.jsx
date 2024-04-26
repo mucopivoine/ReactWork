@@ -130,7 +130,7 @@ function Signup() {
                 className='bg-blue-300 w-50 border-2 border-blue-400 rounded-md 
                 px-[100px] mx-auto mt-5'
               >
-                Create account
+               <Link to="/otpconfirm"> Create account </Link> 
               </button>
               <Link to='/forgetps' className='text-blue-600'>
                 Forgot Password?

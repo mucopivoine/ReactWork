@@ -77,7 +77,7 @@ function Signin() {
                 <p className='text-red-500'>{error.password}</p>
               )}
             </div>
-              <button
+             <button
                 type='submit'
                 className='bg-blue-300 w-50 border-2 border-blue-400 rounded-md px-[100px] mx-auto mt-5'
                 onClick={handleSubmit}

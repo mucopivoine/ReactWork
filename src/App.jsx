@@ -9,6 +9,8 @@ import About from './components/About'
 import Contact from './components/Contact'
 import AuthRoute from './Pages/AuthRoute';
 import Forgetps from './Pages/Forgetps';
+import Otpconfirm from './Pages/Otpconfirm';
+import ConfirmPage from './Pages/ConfirmPage';
 
 
 function App() {
@@ -18,10 +20,13 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path='/' element={<AuthRoute/>} >
+          <Route path='/' element={<AuthRoute/>} >
           <Route path="/" element={<Signin/>}/>
           <Route path="/signup" element={<Signup/>}/>
+          <Route path="/otpconfirm" element={<Otpconfirm/>}/>
+          <Route path='/confirmpage' element={<ConfirmPage/>}/>
           <Route path='/forgetps' element={<Forgetps/>}/>
+          
         </Route>
 
         <Route path="/" element={<Homepage/>}>
