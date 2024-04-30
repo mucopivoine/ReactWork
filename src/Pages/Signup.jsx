@@ -128,16 +128,16 @@ function Signup() {
               <button
                 type='submit'
                 className='bg-blue-300 w-50 border-2 border-blue-400 rounded-md 
-                px-[100px] mx-auto mt-5'
+                px-[100px] mx-auto mt-5' onClick={handleSubmit}
               >
-               <Link to="/otpconfirm"> Create account </Link> 
+               Create account
               </button>
               <Link to='/forgetps' className='text-blue-600'>
                 Forgot Password?
               </Link>
             </div>
             <p>Already have an account?</p>
-            <Link to='/homepage' className='underline text-xl text-blue-500'>
+            <Link to='/otpconfirm' className='underline text-xl text-blue-500'>
               Log In
             </Link>
           </form>
